@@ -1,6 +1,7 @@
 package net.tentaken.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.tentaken.tutorialmod.block.ModBlocks;
 import net.tentaken.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,5 +20,6 @@ public class TutorialMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
